@@ -15,3 +15,9 @@ INSTRUCTIONS:
     -> pytest --pylint ( Runs the tests with pylint )
 
     -> pytest --pylint --cov ( Runs the tests with pylint and coverage )
+
+# CODE
+
+-> I have put the commands used in the commands file.<br/>
+
+->I have shared the passed test cases in the test_cases file after running pytest, pytest --pylint and pytest --pylint --cov.
