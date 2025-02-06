@@ -1,0 +1,68 @@
+IN TERMINAL:
+
+cd IS601_PROJECTS_2025
+mkdir HOMEWORK2
+cd HOMEWORK2
+touch readme.md
+git init
+git add readme.md
+git commit -am “Added readme file
+touch .gitignore
+git add .gitignore
+git commit -am “Added gitignore file”
+mkdir calculator
+mkdir tests
+touch calculator/__init__.py
+touch tests/__init__.py
+touch .pylintrc
+touch pytest.ini
+touch tests/test_calculator.py
+vi .gitignore
+git commit -am “Updated gitignore file”
+vi readme.md
+git commit -am “Written Instructions in the readme file”
+pip3 install virtualenv
+python3 -m virtualenv venv
+source venv/bin/activate
+ls
+cd venv/
+ls ( CACHEDIR.TAG	bin		lib		pyvenv.cfg )
+cd ..
+pwd
+pip install pytest
+pip install pylint-pytest
+pip install pytest-cov
+ls
+pip freeze > requirements.txt
+vi requirements.txt
+git add .
+git commit -m “Created requirements text file”
+git remote add origin git@github.com:Krishna-Sathvika-Ganni/IS601-HOMEWORK2.git
+git remote show
+git push origin master
+code .
+
+
+In VS CODE:
+
+source venv/bin/activate
+git  commit -am “Updated pylintrc file”
+git push origin master 
+git  commit -am “Updated pytest file”
+git push origin master 
+git  commit -am “Added add function in calculator”
+git push origin master 
+git  commit -am “Updated gitignore file”
+git push origin master 
+git  commit -am “Updated test_calculator with addition code”
+git push origin master 
+
+AFTER WRITING THE REQUIRED CODE, RUN THE FOLLOWING TESTS:
+
+-> pytest
+->pytest --pylint 
+->pytest --pylint --cov
+
+
+
+
